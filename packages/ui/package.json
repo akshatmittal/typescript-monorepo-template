@@ -8,12 +8,14 @@
   ],
   "imports": {
     "#components/*": "./src/components/*.tsx",
+    "#layout/*": "./src/layout/*.tsx",
     "#hooks/*": "./src/hooks/*.ts",
     "#lib/*": "./src/lib/*.ts"
   },
   "exports": {
     "./globals.css": "./src/styles/globals.css",
     "./components/*": "./src/components/*.tsx",
+    "./layout/*": "./src/layout/*.tsx",
     "./hooks/*": "./src/hooks/*.ts",
     "./lib/*": "./src/lib/*.ts"
   },

@@ -2,13 +2,16 @@
   "files": [],
   "references": [
     {
-      "path": "./packages/dtf-catalog"
+      "path": "./apps/web-blog"
     },
     {
-      "path": "./packages/sdk"
+      "path": "./apps/web-start"
     },
     {
-      "path": "./packages/react-sdk"
+      "path": "./packages/app-config"
+    },
+    {
+      "path": "./packages/ui"
     }
   ]
 }

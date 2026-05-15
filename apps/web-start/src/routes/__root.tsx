@@ -3,6 +3,8 @@ import type { PropsWithChildren } from "react";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { HeadContent, Scripts, createRootRouteWithContext } from "@tanstack/react-router";
 import appCss from "@workspace/ui/globals.css?url";
+import { Footer } from "@workspace/ui/layout/footer";
+import { Header } from "@workspace/ui/layout/header";
 
 import type { RouterContext } from "@/context";
 
@@ -46,7 +48,11 @@ function RootDocument({ children }: PropsWithChildren) {
         <HeadContent />
       </head>
       <body>
-        <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
+        <QueryClientProvider client={queryClient}>
+          <Header />
+          {children}
+          <Footer />
+        </QueryClientProvider>
         <Scripts />
       </body>
     </html>

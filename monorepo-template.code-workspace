@@ -1,13 +1,16 @@
 {
   "folders": [
     {
-      "path": "apps/example",
+      "path": "apps/web-blog",
     },
     {
-      "path": "packages/uniswap-sdk",
+      "path": "apps/web-start",
     },
     {
-      "path": "packages/uniswap-sdk-react",
+      "path": "packages/app-config",
+    },
+    {
+      "path": "packages/ui",
     },
     {
       "name": "workspace-root",
@@ -15,7 +18,7 @@
     },
   ],
   "settings": {
-    "cSpell.words": [""],
+    "cSpell.words": ["efferd"],
     "js/ts.tsdk.path": "workspace-root/node_modules/typescript/lib",
     "editor.defaultFormatter": "oxc.oxc-vscode",
   },

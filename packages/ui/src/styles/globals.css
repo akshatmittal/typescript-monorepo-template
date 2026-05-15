@@ -4,6 +4,7 @@
 @import "@fontsource-variable/inter";
 
 @source "../components";
+@source "../layout";
 @source "../lib";
 
 @custom-variant dark (&:is(.dark *));
