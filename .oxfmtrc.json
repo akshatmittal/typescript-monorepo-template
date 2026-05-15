@@ -6,7 +6,7 @@
   "endOfLine": "lf",
   "insertFinalNewline": true,
   "sortTailwindcss": {
-    "stylesheet": "apps/web-start/src/styles.css",
+    "stylesheet": "packages/ui/src/styles/globals.css",
     "functions": ["cn", "cva", "clsx"]
   },
   "sortImports": {

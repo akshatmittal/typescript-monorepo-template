@@ -1,5 +1,5 @@
 {
-  "name": "@workspace/web-start",
+  "name": "@workspace/web-blog",
   "private": true,
   "type": "module",
   "scripts": {

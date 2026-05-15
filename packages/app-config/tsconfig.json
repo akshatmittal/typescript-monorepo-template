@@ -1,5 +1,5 @@
 {
-  "extends": "@acme/tsconfig/config.json",
+  "extends": "@workspace/tsconfig/config.json",
   "compilerOptions": {
     "types": ["vitest/globals", "node"],
     "paths": {

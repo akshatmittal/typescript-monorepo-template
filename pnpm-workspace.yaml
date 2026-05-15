@@ -26,3 +26,6 @@ overrides:
   react: "catalog:"
   react-dom: "catalog:"
   typescript: "catalog:"
+
+allowBuilds:
+  msw: set this to true or false
