@@ -1,0 +1,28 @@
+minimumReleaseAge: 1440
+blockExoticSubdeps: true
+strictDepBuilds: false
+catalogMode: manual
+dedupePeerDependents: true
+
+packages:
+  - apps/*
+  - packages/*
+  - tooling/*
+
+catalog:
+  "@tanstack/react-query": ^5.100.10
+  "@types/node": ^24.12.2
+  "@types/react": ^19.2.14
+  "@types/react-dom": ^19.2.3
+  react: ^19.2.6
+  react-dom: ^19.2.6
+  tsdown: ^0.22.0
+  typescript: ^6.0.3
+
+overrides:
+  "@types/node": "catalog:"
+  "@types/react": "catalog:"
+  "@types/react-dom": "catalog:"
+  react: "catalog:"
+  react-dom: "catalog:"
+  typescript: "catalog:"

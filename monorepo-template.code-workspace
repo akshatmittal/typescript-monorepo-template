@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "path": "apps/example",
+    },
+    {
+      "path": "packages/uniswap-sdk",
+    },
+    {
+      "path": "packages/uniswap-sdk-react",
+    },
+    {
+      "name": "workspace-root",
+      "path": ".",
+    },
+  ],
+  "settings": {
+    "cSpell.words": [""],
+    "js/ts.tsdk.path": "workspace-root/node_modules/typescript/lib",
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+  },
+}

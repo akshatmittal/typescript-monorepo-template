@@ -1,0 +1,14 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./packages/dtf-catalog"
+    },
+    {
+      "path": "./packages/sdk"
+    },
+    {
+      "path": "./packages/react-sdk"
+    }
+  ]
+}
