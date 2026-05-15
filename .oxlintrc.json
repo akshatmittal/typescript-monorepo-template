@@ -7,15 +7,8 @@
     "**/dist/**",
     "**/build/**",
     "**/out/**",
-    "**/.cache/**"
+    "**/.cache/**",
+    "**/routeTree.gen.ts"
   ],
-  "plugins": ["typescript", "unicorn", "oxc", "react", "react-perf", "nextjs"],
-  "settings": {
-    "next": {
-      "rootDir": "apps/example"
-    },
-    "react": {
-      "version": "19.2.4"
-    }
-  }
+  "plugins": ["typescript", "unicorn", "oxc", "react", "react-perf"]
 }
