@@ -37,28 +37,11 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "dependencies": {
-    "@uniswap/permit2-sdk": "^1.4.0",
-    "@uniswap/sdk-core": "^7.13.0",
-    "@uniswap/universal-router-sdk": "^5.3.0",
-    "@uniswap/v3-sdk": "^3.30.0",
-    "@uniswap/v4-sdk": "^2.1.0",
-    "hookmate": "^0.5.1"
   },
   "devDependencies": {
     "@acme/tsconfig": "workspace:*",
-    "@tanstack/intent": "catalog:",
     "@types/node": "catalog:",
     "tsdown": "catalog:",
-    "typescript": "catalog:",
-    "viem": "catalog:",
-    "vitest": "^4.1.6"
-  },
-  "peerDependencies": {
-    "viem": "catalog:"
-  },
-  "intent": {
-    "version": 1,
-    "repo": "ZahaStudio/uniswap-sdk-monorepo",
-    "docs": "docs/"
+    "typescript": "catalog:"
   }
 }
