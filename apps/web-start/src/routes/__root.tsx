@@ -1,11 +1,11 @@
-import { QueryClientProvider, type QueryClient } from "@tanstack/react-query";
+import type { PropsWithChildren } from "react";
+
+import { QueryClientProvider } from "@tanstack/react-query";
 import { HeadContent, Scripts, createRootRouteWithContext } from "@tanstack/react-router";
 
-import appCss from "@/styles.css?url";
+import type { RouterContext } from "@/context";
 
-interface RouterContext {
-  queryClient: QueryClient;
-}
+import appCss from "@/styles.css?url";
 
 export const Route = createRootRouteWithContext<RouterContext>()({
   head: () => ({
@@ -35,9 +35,10 @@ export const Route = createRootRouteWithContext<RouterContext>()({
     </main>
   ),
   shellComponent: RootDocument,
+  ssr: false,
 });
 
-function RootDocument({ children }: { children: React.ReactNode }) {
+function RootDocument({ children }: PropsWithChildren) {
   const { queryClient } = Route.useRouteContext();
 
   return (
