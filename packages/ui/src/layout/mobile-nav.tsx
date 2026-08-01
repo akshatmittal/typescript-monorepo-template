@@ -1,8 +1,9 @@
 import React from "react";
 
+import { MenuIcon, XIcon } from "lucide-react";
+
 import { Button } from "#components/button";
 import { cn } from "#lib/utils";
-import { MenuIcon, XIcon } from "lucide-react";
 
 import { navLinks } from "./nav-links";
 import { Portal, PortalBackdrop } from "./portal";

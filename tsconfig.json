@@ -2,9 +2,6 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/web-blog"
-    },
-    {
       "path": "./apps/web-start"
     },
     {
